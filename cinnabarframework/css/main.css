@@ -1,0 +1,200 @@
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #000000;
+	padding-right: -50px;
+}
+
+.cinnabar {
+	color: #eb4d4d;
+}
+
+.social a {
+	color: #eb4d4d;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.margin-top-10 {
+	margin-top: 18px;
+}
+
+@font-face {
+ font-family: 'MyriadPro-Regular';
+ src: url('../fonts/MyriadPro-Regular.otf'); /* For non-IE browsers */
+}
+
+.MyriadPro-Regular {
+	font-family: 'MyriadPro-Regular';
+	font-size: 44.16px; 
+}
+
+.MyriadPro-Blog {
+  font-family: 'MyriadPro-Regular';
+}
+
+@font-face {
+ font-family: 'OpenSans-Regular';
+ src: url('../fonts/OpenSans-Regular.otf'); /* For non-IE browsers */
+}
+
+.OpenSans-Regular {
+	font-family: 'OpenSans-Regular';
+	font-size: 16px; 
+	color: #000;
+}
+
+@font-face {
+ font-family: 'Brandon_reg';
+ src: url('../fonts/Brandon_reg.otf'); /* For non-IE browsers */
+}
+
+.Brandon_reg {
+	font-family: 'Brandon_reg';
+	font-size: 12px; 
+	color: #000;
+}
+
+
+.Services-Font-Size {
+	font-size: 80.46px;
+}
+
+.centerit {
+	margin: 0 auto;
+}
+
+.centeritText { 
+	text-align: center;
+}
+
+.servicetitle {
+	font-size: 16px;
+	font-family: 'Brandon_reg';
+	color: #000000;
+}
+
+.servicecontent { 
+	color: #828485;
+	font-size: 16px;
+	font-family: 'Brandon_reg';
+
+}
+
+.servicecontent a{ 
+  color: #eb4d4d;
+  font-size: 16px;
+  font-family: 'Brandon_reg';
+}
+
+hr{
+	background-color: #828485;
+	colro: #828485 ;
+}
+
+.customizationcontent { 
+	color: #828485;
+	font-size: 16px;
+	font-family: 'Brandon_reg';
+}
+
+.rightAlign {
+	text-align:right;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+.footercolor{
+	background-color: #242424;
+	overflow: hidden;
+}
+
+.servicewidgettitle {
+	font-size: 16px;
+	font-family: 'Brandon_reg';
+	color: #ffffff;
+}
+
+.v-center {
+    display:table;
+    height:200px;
+}
+
+.content {
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell1{
+    display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+body {
+    overflow-x: hidden;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+img{
+	opacity: 0.9;
+}
+
+/*img:hover {
+-webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+*/
+
+img:hover {
+	opacity: 1;
+}
+
+#border-left{border-left:4px solid #dadada;}
+#border-left p{padding-left: 20px;padding-top:15px;padding-bottom:10px;}
+#border-left a{margin-left: 18px;}
+#border-left ul li {text-decoration: none;list-style: none;padding-top:10px;}
+#border-left ul li a{margin-left:-20px;padding-top:10px;}
+
+#we-are {color:#eb4d4d;text-transform: uppercase;}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
